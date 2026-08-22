@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -69,27 +73,65 @@ body {
     z-index: 0
 }
 
-.jumbotron-img {
-    width: 1300px;
-    height: auto;
-    position: fixed;
-    left: 0;
-    z-index: -999;
+.jumbotron-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.jumbotron-image-container img {
+  display: block;
 }
 
 .jumbotron-text {
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    padding-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
-.jumbotron-paragraph {
-    justify-content: center;
-    align-items: right;
-    padding-left: 50px;
+.main-page-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.introduction-paragraph {
+    padding-left: 1%;
+}
+
+.projects-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    border-collapse: separate;
+    border-spacing: 38px;
+    margin-left: 5%
+}
+
+.the-project {
+    border: 1px solid black;
+    padding: 20px;
+    width: 450px;
+    border-spacing: 10px;
+}
+
+.project-button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 78%;
+}
+
+.project-button-text {
+    color: white;
+    text-decoration: none;
 }
 
 /* .j-content {

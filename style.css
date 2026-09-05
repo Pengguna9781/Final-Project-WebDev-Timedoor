@@ -142,3 +142,71 @@ body {
     opacity: 0.4;
 
 } */
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer svg {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+#footer-container {
+    background-color: #358749;
+    margin: 0;
+    padding: 20px 0 40px;
+}
+
+#footer-container h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+
+.social-media-img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.hero-title {
+    padding-top: 90px;
+    margin: 0 auto 40px auto;
+    max-width: 1200px;
+
+    font-size: 100px;
+}
+
+.jj-image {
+    display: block;
+    width: 800px;
+    max-width: 90%;
+    height: auto;
+
+    margin: 0 auto 50px auto;
+}
+
+.about-p-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.about-p {
+    font-size: 30px;
+    line-height: 1.5;
+}

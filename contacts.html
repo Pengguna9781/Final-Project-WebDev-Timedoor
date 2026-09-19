@@ -11,21 +11,32 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js" defer></script>
-    <title>Home Page</title>
+    <title>Contacts Page</title>
 </head>
 <body>
     <header>
         <ul class="navbar">
             <li><a href="index.html"><img src="assets/daily-bugle-logo.jpeg" height="80px" width="auto"></a></li>
             <div class="navbar-options">
-                <li><a href="details.html">News</a></li>
+                <li><a href="news.html">News</a></li>
                 <li><a href="contacts.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
             </div>
         </ul>
     </header>
-    <main>
-        
+    <main><br><br><br><br><br>
+        <h1 class="form-title">Feedback</h1>
+        <section class="form-container">
+            <form action="https://formsubmit.co/loremimpsum@loremipsum.com" method="POST">
+                <input class="form-input" type="text" name="name" placeholder="name"><br>
+                <input class="form-input" type="text" name="email" placeholder="email"><br>
+                <input class="form-input" type="text" name="phone number" placeholder="phone"><br>
+                <input class="form-submit" type="submit">
+            </form>
+            <textarea class="form-message" cols="40" rows="10" placeholder="message">
+
+            </textarea>
+        </section>
     </main>
     <footer>
 

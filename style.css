@@ -157,6 +157,8 @@ footer svg {
     display: block;
     width: 100%;
     margin: 0;
+    /* Cover sub-pixel gaps between the SVG wave and the footer panel. */
+    margin-bottom: -1px;
 }
 
 #footer-container {
